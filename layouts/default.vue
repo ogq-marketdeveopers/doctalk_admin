@@ -86,7 +86,7 @@ export default {
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'Vuetify.js'
+      title: '공개 상담'
     }
   }
 }
