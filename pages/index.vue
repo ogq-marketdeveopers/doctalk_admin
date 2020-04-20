@@ -1,9 +1,12 @@
 <template>
-  <v-layout column justify-center align-center>
+  <!-- <v-layout column justify-center align-center>
     <v-flex xs12 sm8 md6>
       <div class="text-center">
         <logo />
         <vuetify-logo />
+      </div>
+      <div>
+        <Consult />
       </div>
       <v-card>
         <v-card-title class="headline">
@@ -59,17 +62,20 @@
         </v-card-actions>
       </v-card>
     </v-flex>
-  </v-layout>
+  </v-layout> -->
+  <Consult />
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-import VuetifyLogo from '~/components/VuetifyLogo.vue'
+// import Logo from '~/components/Logo.vue'
+// import VuetifyLogo from '~/components/VuetifyLogo.vue'
+import Consult from '~/components/Consult.vue'
 
 export default {
   components: {
-    Logo,
-    VuetifyLogo
+    // Logo,
+    // VuetifyLogo,
+    Consult
   }
 }
 </script>
